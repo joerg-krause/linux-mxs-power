@@ -1342,6 +1342,11 @@
 			status = "disabled";
 		};
 
+		emi: emi@800e0000 {
+			reg = <0x800e0000 0x10000>;
+			status = "disabled";
+		};
+
 		mac0: ethernet@800f0000 {
 			compatible = "fsl,imx28-fec";
 			reg = <0x800f0000 0x4000>;
